@@ -1,0 +1,21 @@
+POST http://127.0.0.1:3030/order HTTP/1.1
+Content-Type: application/json
+
+{
+  "Data": {
+    "req": {
+      "Url": "http://localhost:7071/api/order",
+      "Method": "POST",
+      "Query": "{}",
+      "Headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "Params": {},
+      "Body": "{\"id\":1005,\"quantity\":2,\"color\":\"black\"}"
+    }
+  },
+  "Metadata": {
+  }
+}
